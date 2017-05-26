@@ -15,6 +15,8 @@ y_pad=242
 import os
 from PIL import ImageGrab
 import time
+
+
 def screenGrab():
     box = (x_pad+1,y_pad+1,x_pad+641,y_pad+481)
     im = ImageGrab.grab(box)
